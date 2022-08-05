@@ -52,8 +52,11 @@
 @media (min-width: 375px) {
   /* smartphones, Android phones, landscape iPhone */
 
+  .port1 {
+    height: 50px;
+  }
   .port3 {
-    font-size: x-large;
+    font-size: small;
     font-weight: bold;
     margin-top: 15px;
   }
@@ -115,13 +118,13 @@
   }
 
   .port15 {
-    width: 350px;
+    width: 300px;
     border-radius: 5px;
     border: none;
   }
 
   .port16 {
-    width: 350px;
+    width: 320px;
     font-size: small;
     padding-bottom: 200px;
     border: none;
@@ -130,8 +133,8 @@
   .port17 {
     box-shadow: 3px 5px 4px 5px #888888;
     background-color: whitesmoke;
-    width: 400px;
-    margin-left: 50px;
+    width: 350px;
+    margin-left: 20px;
   }
 
   .btn4 {
@@ -169,6 +172,18 @@
   .port24 {
     text-decoration: underline;
     color: orangered;
+  }
+
+  .port27 {
+    font-size: small;
+  }
+
+  .port8 {
+    font-size: small;
+  }
+
+  .btn2 {
+    margin: 10px;
   }
 }
 

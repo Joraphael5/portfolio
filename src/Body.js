@@ -66,7 +66,7 @@ const Body = () => {
             HEY, I'M JOSEPH RAPHAEL
             <br /> AWACHIE
           </h1>
-          <p>
+          <p className="port27">
             A Frontend focused Web Developer building the Frontend of <br />
             Websites and Web Applications that leads to the success of the
             overall product
@@ -96,12 +96,12 @@ const Body = () => {
           <a>
             <p className="port10"> Get to know me!</p>
           </a>
-          <p>
+          <p className="port27">
             I'm a Frontend Web Developer building the Front-end of Websites
             <br /> and Web Applications that leads to the success of the overall
             <br /> product. Check out some of my work in the Projects section.
           </p>
-          <p>
+          <p className="port27">
             I also like sharing content related to the stuff that I have learned
             <br /> over the years in Web Development so it can help other people
             of
@@ -110,7 +110,7 @@ const Body = () => {
             related to Web
             <br /> Development and Programming
           </p>
-          <p>
+          <p className="port27">
             I'm open to Job opportunities where I can contribute, learn and
             <br /> grow. If you have a good opportunity that matches my skills
             and
@@ -145,7 +145,7 @@ const Body = () => {
         <a>
           <h1 className="port7">PROJECTS</h1>
         </a>
-        <p>
+        <p className="port27">
           Here you will find some of the personal and clients projects that I
           <br /> created with each project containing its own case study
         </p>
@@ -157,7 +157,7 @@ const Body = () => {
         <a>
           <h1 className="port7">CONTACT</h1>
         </a>
-        <p>
+        <p className="port27">
           Feel free to Contact me by submitting the form below and I will get
           <br /> back to you as soon as possible
         </p>
