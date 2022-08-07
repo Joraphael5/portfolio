@@ -180,6 +180,16 @@
     text-decoration: underline;
     color: orangered;
   }
+
+  .port12 {
+    font-weight: bolder;
+    color: red;
+  }
+
+  span {
+    color: red;
+    font-weight: 700;
+  }
 }
 
 @media (min-width: 375px) {

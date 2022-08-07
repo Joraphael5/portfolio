@@ -199,7 +199,7 @@ const Body = () => {
       <footer className="port18">
         <div className="port21">
           <div className="port34">
-            <p className="port19 text-white p-4">SOCIAL</p>
+            <p className="port19 text-white p-4">SOCIALS</p>
 
             <div className="ps-3">
               <img src={facebook} alt="" height={15} />
