@@ -8,8 +8,8 @@ import line from "./images/Vector 8.png";
 
 const Body = () => {
   return (
-    <div>
-      <nav className="navbar px-5 navbar-expand-lg navbar-light ">
+    <div className="container-fluid">
+      <nav className="navbar px-3 navbar-expand-lg navbar-light ">
         <div className="container-fluid">
           <a className="navbar-brand " href="#">
             <div className="port2">
@@ -62,11 +62,11 @@ const Body = () => {
 
       <div className="port4">
         <div className="port5 ">
-          <h1>
+          <h1 className="port30">
             HEY, I'M JOSEPH RAPHAEL
             <br /> AWACHIE
           </h1>
-          <p className="port27">
+          <p className="port32">
             A Frontend focused Web Developer building the Frontend of <br />
             Websites and Web Applications that leads to the success of the
             overall product
@@ -157,7 +157,7 @@ const Body = () => {
         <a>
           <h1 className="port7">CONTACT</h1>
         </a>
-        <p className="port27">
+        <p className="port31">
           Feel free to Contact me by submitting the form below and I will get
           <br /> back to you as soon as possible
         </p>
@@ -198,7 +198,7 @@ const Body = () => {
 
       <footer className="port18">
         <div className="port21">
-          <div>
+          <div className="port34">
             <p className="port19 text-white p-4">SOCIAL</p>
 
             <div className="ps-3">
@@ -212,7 +212,7 @@ const Body = () => {
             </div>
           </div>
 
-          <div>
+          <div className="port33">
             <p className="port19 text-white p-3 pt-5">JOSEPH AWACHIE</p>
             <p className="port20 text-white p-3">
               A Frontend focused Web Developer building the Frontend of
@@ -229,8 +229,8 @@ const Body = () => {
         <div>
           <p className="port23 text-white">
             {" "}
-            Copyrights 2022. Made by{" "}
-            <span className="port24">Joseph Awachie</span>
+            <span className="port24">Ram Maheshwari</span> Copyright 2022. Made
+            by <span className="port24">Joseph Awachie</span>
           </p>
         </div>
       </footer>

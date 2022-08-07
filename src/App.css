@@ -49,6 +49,139 @@
   border: none;
 }
 
+@media (min-width: 320px) {
+  .port1 {
+    height: 40px;
+  }
+
+  .port3 {
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  a :hover {
+    color: red;
+  }
+
+  .port5 {
+    font-size: x-small;
+    /* margin: 10px; */
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .port30 {
+    text-align: center;
+    font-size: small;
+  }
+
+  .port4 {
+    background-color: rgb(237, 237, 237);
+  }
+
+  .btn1 {
+    font-weight: bold;
+  }
+
+  .port6 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .port7 {
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+    font-weight: bold;
+  }
+
+  .port8 {
+    font-size: x-small;
+  }
+
+  .port10 {
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+  .port27 {
+    font-size: x-small;
+  }
+
+  .btn2 {
+    margin: 4px;
+  }
+
+  .port14 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: rgb(237, 237, 237);
+  }
+
+  .port31 {
+    font-size: xx-small;
+    font-weight: 500;
+  }
+
+  .port17 {
+    box-shadow: 3px 5px 4px 5px #888888;
+    background-color: whitesmoke;
+    width: 260px;
+    margin-left: 20px;
+  }
+
+  .port15 {
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+  }
+
+  .port16 {
+    width: 220px;
+    font-size: small;
+    padding-bottom: 200px;
+    border: none;
+  }
+
+  .btn4 {
+    font-weight: bold;
+    width: 200px;
+  }
+
+  .port18 {
+    background-color: black;
+  }
+
+  .port19 {
+    font-weight: bold;
+  }
+
+  .port20 {
+    font-size: xx-small;
+    font-weight: 600;
+  }
+
+  .port22 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .port23 {
+    font-size: x-small;
+    text-align: center;
+  }
+
+  .port24 {
+    text-decoration: underline;
+    color: orangered;
+  }
+}
+
 @media (min-width: 375px) {
   /* smartphones, Android phones, landscape iPhone */
 
@@ -81,6 +214,11 @@
     padding-bottom: 80px;
   }
 
+  .port32 {
+    font-size: x-small;
+    margin: 5px;
+  }
+
   .port7 {
     text-decoration-color: red;
     text-decoration-line: underline;
@@ -91,10 +229,12 @@
   .port10 {
     font-size: x-large;
     font-weight: bold;
+    margin-left: 10px;
   }
 
   .btn1 {
     font-weight: bold;
+    margin-left: 10px;
   }
 
   .port11 {
@@ -118,13 +258,14 @@
   }
 
   .port15 {
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
     border: none;
+    height: 40px;
   }
 
   .port16 {
-    width: 320px;
+    width: 250px;
     font-size: small;
     padding-bottom: 200px;
     border: none;
@@ -133,13 +274,13 @@
   .port17 {
     box-shadow: 3px 5px 4px 5px #888888;
     background-color: whitesmoke;
-    width: 350px;
-    margin-left: 20px;
+    width: 300px;
+    margin-left: 30px;
   }
 
   .btn4 {
     font-weight: bold;
-    width: 300px;
+    width: 250px;
   }
 
   span {
@@ -156,7 +297,8 @@
   }
 
   .port20 {
-    font-size: small;
+    font-size: x-small;
+    margin: 5px;
   }
 
   .port22 {
@@ -175,11 +317,12 @@
   }
 
   .port27 {
-    font-size: small;
+    font-size: x-small;
+    margin: 8px;
   }
 
   .port8 {
-    font-size: small;
+    font-size: x-small;
   }
 
   .btn2 {
@@ -187,7 +330,32 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 425px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .port17 {
+    box-shadow: 3px 5px 4px 5px #888888;
+    background-color: whitesmoke;
+    width: 330px;
+    margin-left: 40px;
+  }
+
+  .port32 {
+    font-size: small;
+    margin: 5px;
+  }
+
+  .port20 {
+    font-size: small;
+    margin: 5px;
+  }
+
+  .port27 {
+    font-size: x-small;
+    margin: 8px;
+  }
+}
+
+@media (min-width: 1024px) {
   /* smartphones, Android phones, landscape iPhone */
 
   .port5 {
@@ -226,7 +394,7 @@
     box-shadow: 3px 5px 4px 5px #888888;
     background-color: whitesmoke;
     width: 550px;
-    margin-left: 350px;
+    margin-left: 230px;
   }
 
   .btn4 {
@@ -235,15 +403,87 @@
     margin-left: 250px;
   }
 
-  /* .port21 {
+  .port21 {
     display: flex;
-  } */
+  }
 
   .port11 {
     padding-left: 35px;
   }
 
+  .port20 {
+    font-size: small;
+    margin: 10px;
+  }
+
   .port25 {
     padding-right: 35px;
   }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn2 {
+    margin: none;
+  }
+
+  .btn3 {
+    margin-left: 10px;
+  }
+
+  .port33 {
+    margin-left: 300px;
+  }
+
+  .port34 {
+    margin-left: 30px;
+  }
+
+  @media (min-width: 1440px) {
+    .port17 {
+      box-shadow: 3px 5px 4px 5px #888888;
+      background-color: whitesmoke;
+      width: 550px;
+      margin-left: 420px;
+    }
+
+    .port27 {
+      font-size: small;
+      margin: 8px;
+      font-weight: 600;
+    }
+
+    .port21 {
+      display: flex;
+    }
+
+    .port33 {
+      margin-left: 700px;
+    }
+
+    .port20 {
+      font-size: small;
+      margin: 10px;
+    }
+  }
 }
+
+/* @media (max-width: 1920px) {
+  .port17 {
+    box-shadow: 3px 5px 4px 5px #888888;
+    background-color: whitesmoke;
+    width: 550px;
+    margin-left: 340px;
+  }
+
+  .port27 {
+    font-size: small;
+    margin: 8px;
+    font-weight: 600;
+  }
+
+  .port33 {
+    margin-left: 500px;
+  }
+} */
