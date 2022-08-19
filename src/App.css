@@ -61,7 +61,7 @@
   }
 
   a :hover {
-    color: red;
+    color: rgb(163, 213, 230);
   }
 
   .port5 {
@@ -92,7 +92,7 @@
   }
 
   .port7 {
-    text-decoration-color: red;
+    text-decoration-color: rgb(163, 213, 230);
     text-decoration-line: underline;
     text-underline-offset: 8px;
     font-weight: bold;
@@ -122,13 +122,21 @@
     background-color: rgb(237, 237, 237);
   }
 
+  .port11 {
+    margin-left: 10px;
+  }
+
+  .port25 {
+    margin-left: 10px;
+  }
+
   .port31 {
     font-size: xx-small;
     font-weight: 500;
   }
 
   .port17 {
-    box-shadow: 3px 5px 4px 5px #888888;
+    /* box-shadow: 3px 5px 4px 5px #888888; */
     background-color: whitesmoke;
     width: 260px;
     margin-left: 20px;
@@ -178,17 +186,23 @@
 
   .port24 {
     text-decoration: underline;
-    color: orangered;
+    color: rgb(163, 213, 230);
   }
 
   .port12 {
     font-weight: bolder;
-    color: red;
+    color: rgb(163, 213, 230);
   }
 
   span {
-    color: red;
+    color: rgb(163, 213, 230);
     font-weight: 700;
+  }
+
+  .port35 {
+    text-align: start;
+    font-size: small;
+    margin-left: 20px;
   }
 }
 
@@ -205,7 +219,7 @@
   }
 
   a :hover {
-    color: red;
+    color: rgb(163, 213, 230);
   }
 
   .port5 {
@@ -230,7 +244,7 @@
   }
 
   .port7 {
-    text-decoration-color: red;
+    text-decoration-color: rgb(163, 213, 230);
     text-decoration-line: underline;
     text-underline-offset: 8px;
     font-weight: bold;
@@ -257,7 +271,7 @@
 
   .port12 {
     font-weight: bolder;
-    color: red;
+    color: rgb(163, 213, 230);
   }
 
   .port14 {
@@ -282,7 +296,7 @@
   }
 
   .port17 {
-    box-shadow: 3px 5px 4px 5px #888888;
+    /* box-shadow: 3px 5px 4px 5px #888888; */
     background-color: whitesmoke;
     width: 300px;
     margin-left: 30px;
@@ -294,7 +308,7 @@
   }
 
   span {
-    color: red;
+    color: rgb(163, 213, 230);
     font-weight: 700;
   }
 
@@ -323,7 +337,7 @@
 
   .port24 {
     text-decoration: underline;
-    color: orangered;
+    color: rgb(163, 213, 230);
   }
 
   .port27 {
@@ -343,7 +357,7 @@
 @media (min-width: 425px) {
   /* smartphones, Android phones, landscape iPhone */
   .port17 {
-    box-shadow: 3px 5px 4px 5px #888888;
+    /* box-shadow: 3px 5px 4px 5px #888888; */
     background-color: whitesmoke;
     width: 330px;
     margin-left: 40px;
@@ -363,10 +377,71 @@
     font-size: x-small;
     margin: 8px;
   }
+
+  .port35 {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .port11 {
+    margin-left: 40px;
+  }
+
+  .port27 {
+    font-size: medium;
+  }
+
+  .port25 {
+    margin-left: 40px;
+  }
+
+  .port8 {
+    font-size: medium;
+  }
+
+  .port31 {
+    font-size: medium;
+  }
+
+  .port17 {
+    margin-left: 150px;
+    width: 500px;
+  }
+
+  .port15 {
+    width: 420px;
+  }
+
+  .port16 {
+    width: 420px;
+  }
 }
 
 @media (min-width: 1024px) {
   /* smartphones, Android phones, landscape iPhone */
+
+  .port32 {
+    font-size: large;
+  }
+
+  .port30 {
+    font: large;
+  }
+
+  .port27 {
+    font-size: large;
+    margin-top: 20px;
+  }
+
+  /* .port9 {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+  .port31 {
+    font-size: large;
+  }
 
   .port5 {
     text-align: center;
@@ -376,11 +451,6 @@
 
   .port8 {
     font-size: larger;
-  }
-
-  .port9 {
-    display: flex;
-    justify-content: space-between;
   }
 
   .btn3 {
@@ -401,7 +471,7 @@
   }
 
   .port17 {
-    box-shadow: 3px 5px 4px 5px #888888;
+    /* box-shadow: 3px 5px 4px 5px #888888; */
     background-color: whitesmoke;
     width: 550px;
     margin-left: 230px;
@@ -418,16 +488,16 @@
   }
 
   .port11 {
-    padding-left: 35px;
+    margin-left: 20px;
   }
 
   .port20 {
-    font-size: small;
+    font-size: large;
     margin: 10px;
   }
 
   .port25 {
-    padding-right: 35px;
+    margin: 20px;
   }
 
   footer {
@@ -450,16 +520,25 @@
     margin-left: 30px;
   }
 
+  .icons {
+    font-size: larger;
+  }
+
   @media (min-width: 1440px) {
     .port17 {
-      box-shadow: 3px 5px 4px 5px #888888;
+      /* box-shadow: 3px 5px 4px 5px #888888; */
       background-color: whitesmoke;
       width: 550px;
       margin-left: 420px;
     }
 
+    .port9 {
+      display: flex;
+      justify-content: space-between;
+    }
+
     .port27 {
-      font-size: small;
+      font-size: large;
       margin: 8px;
       font-weight: 600;
     }
@@ -473,13 +552,21 @@
     }
 
     .port20 {
-      font-size: small;
+      font-size: large;
       margin: 10px;
+    }
+
+    .port31 {
+      font-size: larger;
+    }
+
+    .port30 {
+      font-size: large;
     }
   }
 }
 
-/* @media (max-width: 1920px) {
+@media (min-width: 1920px) {
   .port17 {
     box-shadow: 3px 5px 4px 5px #888888;
     background-color: whitesmoke;
@@ -496,4 +583,9 @@
   .port33 {
     margin-left: 500px;
   }
-} */
+
+  .port9 {
+    display: flex;
+    justify-content: space-between;
+  }
+}

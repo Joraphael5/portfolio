@@ -8,7 +8,7 @@ import line from "./images/Vector 8.png";
 
 const Body = () => {
   return (
-    <div className="container-fluid">
+    <div className="">
       <nav className="navbar px-3 navbar-expand-lg navbar-light ">
         <div className="container-fluid">
           <a className="navbar-brand " href="#">
@@ -71,7 +71,7 @@ const Body = () => {
             Websites and Web Applications that leads to the success of the
             overall product
           </p>
-          <button className=" btn1 btn btn-large text-dark btn-danger">
+          <button className=" btn1 btn btn-large text-white btn-info">
             PROJECTS
           </button>
         </div>
@@ -116,7 +116,7 @@ const Body = () => {
             and
             <br /> experience then don't hesitate to contact me.
           </p>
-          <button className="btn1 btn btn-large text-dark btn-danger">
+          <button className="btn1 btn btn-large text-white btn-info">
             PROJECTS
           </button>
         </div>
@@ -124,20 +124,24 @@ const Body = () => {
           <a>
             <p className="port10 pt-5">My Skills</p>
           </a>
-          <button className="btn2 btn bg-secondary">HTML</button>
+          <button className="btn2 text-white btn bg-secondary">HTML</button>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <button className="btn2 btn bg-secondary">CSS</button>
+          <button className="btn2 text-white btn bg-secondary">CSS</button>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <button className="btn2 btn bg-secondary">BOOTSTRAP</button>
+          <button className="btn2 text-white btn bg-secondary">
+            BOOTSTRAP
+          </button>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <button className="btn2 btn bg-secondary">JavaScript</button>
+          <button className="btn2 text-white btn bg-secondary">
+            JavaScript
+          </button>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <button className="btn2 btn bg-secondary">React</button>
+          <button className="btn2 text-white btn bg-secondary">React</button>
           &nbsp;&nbsp;&nbsp;&nbsp;
           <br />
-          <button className="btn3 btn bg-secondary">GIT</button>
+          <button className="btn3 text-white btn bg-secondary">GIT</button>
           &nbsp;&nbsp;&nbsp;&nbsp;
-          <button className="btn3 btn bg-secondary">Github</button>
+          <button className="btn3 text-white btn bg-secondary">Github</button>
         </div>
       </div>
 
@@ -145,7 +149,7 @@ const Body = () => {
         <a>
           <h1 className="port7">PROJECTS</h1>
         </a>
-        <p className="port27">
+        <p className="port31">
           Here you will find some of the personal and clients projects that I
           <br /> created with each project containing its own case study
         </p>
@@ -164,12 +168,12 @@ const Body = () => {
 
         <div className="port13">
           <form className="port17 p-2 " action="">
-            <h6 className="pt-3 text-secondary">Name</h6>
+            <h6 className="port35 pt-3 text-secondary">Name</h6>
             <input className="port15" type="text" placeholder="Name" name="" />
             <br />
             <br />
 
-            <h6 className="pt-3 text-secondary"> Email Address</h6>
+            <h6 className="port35 pt-3 text-secondary"> Email Address</h6>
             <input
               className="port15"
               type="text"
@@ -179,7 +183,7 @@ const Body = () => {
             <br />
             <br />
 
-            <h6 className="pt-3 text-secondary"> Message </h6>
+            <h6 className="port35 pt-3 text-secondary"> Message </h6>
             <input
               className="port16"
               type="text"
@@ -189,7 +193,10 @@ const Body = () => {
             <br />
             <br />
 
-            <button className="btn4 btn btn-lg bg-danger" type="button">
+            <button
+              className="btn4 btn btn-lg bg-info text-white"
+              type="button"
+            >
               SUBMIT
             </button>
           </form>
@@ -201,14 +208,14 @@ const Body = () => {
           <div className="port34">
             <p className="port19 text-white p-4">SOCIALS</p>
 
-            <div className="ps-3">
+            <div className="icons ps-3">
               <img src={facebook} alt="" height={15} />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <img src={insta} alt="" height={15} />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <img src={twitter} alt="" height={15} />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <img src={git} alt="" height={20} />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              {/* <img src={twitter} alt="" height={15} /> */}
             </div>
           </div>
 
